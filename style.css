@@ -2,12 +2,19 @@ body {
     background-color: #e1e7fa;
 }
 
+.container {
+    width: 95%;
+    height: auto;
+    margin-top: 5%;
+    background: white;
+    margin: 0 auto;
+}
 nav {
     background: white;
     height: 10vh;
 	display: flex;
-	justify-content: center;
-    align-items: center;
+	justify-content: space-between;
+    align-items: center; 
     flex-direction: row;
     margin: 0 4em;
 }
@@ -19,6 +26,9 @@ nav {
     align-items: center;
     margin: 0;
     padding: 0;
+    width: 80%;
+    background: red;
+    height:100%;
     
 }
 
@@ -27,7 +37,7 @@ nav {
     justify-content: center;
     align-items: stretch;
     height: 80vh;
-    margin: 0 4em;
-    border: 1px solid;
+    width: 90%;
+    margin-left: auto;
 }
 
