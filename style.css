@@ -27,7 +27,6 @@ nav {
     margin: 0;
     padding: 0;
     width: 80%;
-    background: red;
     height:100%;
     
 }
@@ -39,5 +38,16 @@ nav {
     height: 80vh;
     width: 90%;
     margin-left: auto;
+}
+
+.design {
+    font-family: georgia;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 10em;
+    right: 30px;
+    width: 200px;
+    height: 100px;
+    padding: 15%;
 }
 
